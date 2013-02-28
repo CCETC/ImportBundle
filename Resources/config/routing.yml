@@ -1,0 +1,7 @@
+ccetc_import:
+    pattern:  /admin/import
+    defaults: { _controller: CCETCImportBundle:Interface:import }
+    
+ccetc_import_xls:
+    pattern:  /admin/import/xls
+    defaults: { _controller: CCETCImportBundle:XLS:import }  

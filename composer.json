@@ -1,0 +1,24 @@
+{
+    "name": "ccetc/import-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony CCETCImportBundle",
+    "keywords": ["xls", "data", "import", "symfony", "doctrine"],
+    "homepage": "http://github.com/CCETC/ImportBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pat Haggerty",
+            "email": "haggertypat@gmail.com",
+            "homepage": "http://github.com/somewherethere"
+        }
+    ],
+    "require": {
+        "sonata-project/admin-bundle": "dev-master",
+        "phpexcel/phpexcel": "dev-master"        
+    },
+    "autoload": {
+        "psr-0": { "CCETC\\ImportBundle": "" }
+    },
+    "target-dir": "CCETC/ImportBundle",
+    "minimum-stability": "dev"
+}
