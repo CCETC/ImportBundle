@@ -1,7 +1,7 @@
 {
     "name": "ccetc/import-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony CCETCImportBundle",
+    "description": "Symfony developer bundle for import xls data to your database",
     "keywords": ["xls", "data", "import", "symfony", "doctrine"],
     "homepage": "http://github.com/CCETC/ImportBundle",
     "license": "MIT",
