@@ -15,6 +15,11 @@ Add to your composer.json:
 
 Run ``php composer.phar install``
 
+Add to AppKernel.php:
+
+    new CCETC\ImportBundle\CCETCImportBundle(),
+
+
 ### Security
 The tool is accessed at ``admin/import``, so make sure this route is secured in ``security.yml``.
 
