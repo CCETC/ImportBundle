@@ -18,6 +18,12 @@ Run ``php composer.phar install``
 Add to AppKernel.php:
 
     new CCETC\ImportBundle\CCETCImportBundle(),
+    
+Add to your routing:
+
+    ccetc_import:
+        resource: "@CCETCImportBundle/Resources/config/routing.yml"
+        prefix:   /
 
 
 ### Security
